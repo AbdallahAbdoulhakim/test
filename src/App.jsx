@@ -1,4 +1,10 @@
+import { Button } from "flowbite-react";
+
 const App = () => {
-  return <div className="font-bold underline text-3xl">App</div>;
+  return (
+    <div>
+      <Button>Click me</Button>
+    </div>
+  );
 };
 export default App;
