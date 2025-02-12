@@ -1,9 +1,9 @@
-import { Button } from "flowbite-react";
+import Header from "./components/public/Header";
 
 const App = () => {
   return (
     <div>
-      <Button>Click me</Button>
+      <Header />
     </div>
   );
 };
